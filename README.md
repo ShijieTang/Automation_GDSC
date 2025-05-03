@@ -13,3 +13,10 @@ Xd_tr, Xd_te, Xl_tr, Xl_te, y_tr, y_te = split_data(X_dummy, X_label, y)
 # Xd: X features with dummy variables
 # Xl: X features with label encoding (e.g. Turn R, G, B into 0, 1, 2)
 ```
+
+## Files
+- `dataloader.py`: Contains functions to load the GDSC dataset, prepare features, and split the data into training and testing sets.
+- `data.ipynb`, `exploration.ipynb`: Jupyter notebooks for data exploration and analysis.
+- `main_classificication.ipynb`: Jupyter notebook for classification tasks.
+- `main_regression.ipynb`: Jupyter notebook for regression tasks.
+- `nn_*.ipynb`: Jupyter notebooks for neural network tasks.
